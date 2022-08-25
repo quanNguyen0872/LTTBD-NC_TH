@@ -8,11 +8,24 @@
 </head>
 <body>
     <script>
-        
-
+        document.body.innerHTML=`
+            <input type='text' id='input1'/>
+            <input type='text' id='input2'/>
+            <input type='button' id='button' value='submit'/>
+            <div id='result'></div>
+        `
         var input1 = document.getElementById("input1");
         var input2 = document.getElementById("input2");
-        var button = doc
-    </script>
+        var button = document.querySelector("#button");
+        var result = document.querySelector("#result");
+
+        button.onclick = function() {
+            var val1 = input1.value;
+            var val2 = input2.value;
+            var rs = parseInt(val1) + parseInt(val2);
+
+            result.innerHTML = rs;
+        }
+        </script>
 </body>
 </html>
