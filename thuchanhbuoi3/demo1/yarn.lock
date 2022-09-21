@@ -2203,15 +2203,15 @@
   dependencies:
     "fill-range" "^7.0.1"
 
-"browserslist@^4.21.3", "browserslist@>= 4.21.0":
-  "integrity" "sha512-898rgRXLAyRkM1GryrrBHGkqA5hlpkV5MhtZwg9QXeiyLUYs2k00Un05aX5l2/yJIOObYKOpS2JNo8nJDE7fWQ=="
-  "resolved" "https://registry.npmjs.org/browserslist/-/browserslist-4.21.3.tgz"
-  "version" "4.21.3"
+"browserslist@^4.21.3", "browserslist@^4.21.4", "browserslist@>= 4.21.0":
+  "integrity" "sha512-CBHJJdDmgjl3daYjN5Cp5kbTf1mUhZoS+beLklHIvkOWscs83YAhLlF3Wsh/lciQYAcbBJgTOD44VtG31ZM4Hw=="
+  "resolved" "https://registry.npmjs.org/browserslist/-/browserslist-4.21.4.tgz"
+  "version" "4.21.4"
   dependencies:
-    "caniuse-lite" "^1.0.30001370"
-    "electron-to-chromium" "^1.4.202"
+    "caniuse-lite" "^1.0.30001400"
+    "electron-to-chromium" "^1.4.251"
     "node-releases" "^2.0.6"
-    "update-browserslist-db" "^1.0.5"
+    "update-browserslist-db" "^1.0.9"
 
 "bser@2.1.1":
   "integrity" "sha512-gQxTNE/GAfIIrmHLUE3oJyp5FO6HRBfhjnw4/wMmA63ZGDJnWBmgY/lyQBpnDUkGmAhbSe39tx2d/iTOAfglwQ=="
@@ -2342,10 +2342,10 @@
   "resolved" "https://registry.npmjs.org/camelcase/-/camelcase-6.3.0.tgz"
   "version" "6.3.0"
 
-"caniuse-lite@^1.0.30001370":
-  "integrity" "sha512-4vQ90tMKS+FkvuVWS5/QY1+d805ODxZiKFzsU8o/RsVJz49ZSRR8EjykLJbqhzdPgadbX6wB538wOzle3JniRA=="
-  "resolved" "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001399.tgz"
-  "version" "1.0.30001399"
+"caniuse-lite@^1.0.30001400":
+  "integrity" "sha512-V0mnJ5dwarmhYv8/MzhJ//aW68UpvnQBXv8lJ2QUsvn2pHcmAuNtu8hQEDz37XnA1iE+lRR9CIfGWWpgJ5QedQ=="
+  "resolved" "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001409.tgz"
+  "version" "1.0.30001409"
 
 "chalk@^2.0.0":
   "integrity" "sha512-Mti+f9lpJNcwF4tWV8/OrTTtF1gZi+f8FqlyAdouralcFWFQWF2+NgCHShjkCb+IFBLq9buZwE1xckQU4peSuQ=="
@@ -2611,11 +2611,11 @@
   "version" "0.1.1"
 
 "core-js-compat@^3.25.1":
-  "integrity" "sha512-pOHS7O0i8Qt4zlPW/eIFjwp+NrTPx+wTL0ctgI2fHn31sZOq89rDsmtc/A2vAX7r6shl+bmVI+678He46jgBlw=="
-  "resolved" "https://registry.npmjs.org/core-js-compat/-/core-js-compat-3.25.1.tgz"
-  "version" "3.25.1"
+  "integrity" "sha512-TxfyECD4smdn3/CjWxczVtJqVLEEC2up7/82t7vC0AzNogr+4nQ8vyF7abxAuTXWvjTClSbvGhU0RgqA4ToQaQ=="
+  "resolved" "https://registry.npmjs.org/core-js-compat/-/core-js-compat-3.25.2.tgz"
+  "version" "3.25.2"
   dependencies:
-    "browserslist" "^4.21.3"
+    "browserslist" "^4.21.4"
 
 "core-util-is@~1.0.0":
   "integrity" "sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ=="
@@ -2854,10 +2854,10 @@
   "resolved" "https://registry.npmjs.org/ee-first/-/ee-first-1.1.1.tgz"
   "version" "1.1.1"
 
-"electron-to-chromium@^1.4.202":
-  "integrity" "sha512-k4o4cFrWPv4SoJGGAydd07GmlRVzmeDIJ6MaEChTUjk4Dmomn189tCicSzil2oyvbPoGgg2suwPDNWq4gWRhoQ=="
-  "resolved" "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.251.tgz"
-  "version" "1.4.251"
+"electron-to-chromium@^1.4.251":
+  "integrity" "sha512-x+JnqyluoJv8I0U9gVe+Sk2st8vF0CzMt78SXxuoWCooLLY2k5VerIBdpvG7ql6GKI4dzNnPjmqgDJ76EdaAKw=="
+  "resolved" "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.256.tgz"
+  "version" "1.4.256"
 
 "emoji-regex@^8.0.0":
   "integrity" "sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A=="
@@ -3029,6 +3029,11 @@
   "integrity" "sha512-kIRtO4Hmrvxh4E45IPWG/NiUZsuRe1AQwBT09pq+kx8nm6tUS4B9TeL6+1NFy+qVBLbGKDqoQD5Ez7XYTFtBeQ=="
   "resolved" "https://registry.npmjs.org/expo-keep-awake/-/expo-keep-awake-10.2.0.tgz"
   "version" "10.2.0"
+
+"expo-linear-gradient@~11.4.0":
+  "integrity" "sha512-qtIfsLs7NOpfxYrFSJL5uLtNHIkBHQFuQ3f7++XpoJTSm4eQVFxjjkCGWiLIrkpVjKzmgp3DLuIVsadsGX21lA=="
+  "resolved" "https://registry.npmjs.org/expo-linear-gradient/-/expo-linear-gradient-11.4.0.tgz"
+  "version" "11.4.0"
 
 "expo-modules-autolinking@>=0.8.1", "expo-modules-autolinking@0.10.3":
   "integrity" "sha512-av9ln2zwUt303g98raX7sDmESgL3SXs1sbbtIjh1rL7R0676XIUacIKgbydR0/4tMbOShWx14Z9fozpk9xIAJA=="
@@ -3257,9 +3262,9 @@
   "version" "0.121.0"
 
 "flow-parser@0.*":
-  "integrity" "sha512-wTOuvmW6YyrcqkuLggk/GeSl65R5KQPEbxh0eAfCvlwxp8X08r+5owgZjdbLf8/typZQl/cSJL6D9vVwCkzf3g=="
-  "resolved" "https://registry.npmjs.org/flow-parser/-/flow-parser-0.187.0.tgz"
-  "version" "0.187.0"
+  "integrity" "sha512-ZvlTeakTTMmYGukt4EIQtLEp4ie45W+jK325uukGgiqFg2Rl7TdpOJQbOLUN2xMeGS+WvXaK0uIJ3coPGDXFGQ=="
+  "resolved" "https://registry.npmjs.org/flow-parser/-/flow-parser-0.187.1.tgz"
+  "version" "0.187.1"
 
 "fontfaceobserver@^2.1.0":
   "integrity" "sha512-6FPvD/IVyT4ZlNe7Wcn5Fb/4ChigpucKYSvD6a+0iMoLn2inpo711eyIcKjmDtE5XNcgAkSH9uN/nfAeZzHEfg=="
@@ -6064,9 +6069,9 @@
   "version" "0.4.1"
 
 "sucrase@^3.20.0":
-  "integrity" "sha512-iWWppLcRrEwHaHefYJaJP9XQdRJO+tZfy/kDZizar5Ur1IK8XN48nwMFnDupXw2uvNtjWd8I58vVH42inBT/2Q=="
-  "resolved" "https://registry.npmjs.org/sucrase/-/sucrase-3.26.0.tgz"
-  "version" "3.26.0"
+  "integrity" "sha512-IjpEeFzOWCGrB/e2DnPawkFajW6ONFFgs+lQT1+Ts5Z5ZM9gPnxpDh0q8tu7HVLt6IfRiUTbSsjfhqjHOP/cwQ=="
+  "resolved" "https://registry.npmjs.org/sucrase/-/sucrase-3.27.0.tgz"
+  "version" "3.27.0"
   dependencies:
     "commander" "^4.0.0"
     "glob" "7.1.6"
@@ -6445,7 +6450,7 @@
     "has-value" "^0.3.1"
     "isobject" "^3.0.0"
 
-"update-browserslist-db@^1.0.5":
+"update-browserslist-db@^1.0.9":
   "integrity" "sha512-/xsqn21EGVdXI3EXSum1Yckj3ZVZugqyOZQ/CxYPBD/R+ko9NSUScf8tFF4dOKY+2pvSSJA/S+5B8s4Zr4kyvg=="
   "resolved" "https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.0.9.tgz"
   "version" "1.0.9"
@@ -6590,9 +6595,9 @@
   "version" "4.0.15"
 
 "wonka@^6.0.0":
-  "integrity" "sha512-TEiIOqkhQXbcmL1RrjxPCzTX15V5FSyJvZRSiTxvgTgrJMaOVKmzGTdRVh349CfaNo9dsIhWDyg1/GNq4NWrEg=="
-  "resolved" "https://registry.npmjs.org/wonka/-/wonka-6.0.0.tgz"
-  "version" "6.0.0"
+  "integrity" "sha512-VgiMCz7BXOiDbgpVhf5iNhK7hurteY5Jv0fDJewUkY0s4fbxQD2iKqfGxNXNTwp2v3bgT8QVu2l5H7YdkZ5WIA=="
+  "resolved" "https://registry.npmjs.org/wonka/-/wonka-6.1.0.tgz"
+  "version" "6.1.0"
 
 "wrap-ansi@^6.2.0":
   "integrity" "sha512-r6lPcBGxZXlIcymEu7InxDMhdW0KDxpLgoFLcguasxCaJ/SOIZwINatK9KY/tf+ZrlywOKU0UDj3ATXUBfxJXA=="
