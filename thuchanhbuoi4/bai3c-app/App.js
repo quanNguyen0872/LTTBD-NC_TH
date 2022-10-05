@@ -1,6 +1,8 @@
 import { StyleSheet, Text, View, Image, Pressable } from 'react-native';
 import { MaterialIcons } from '@expo/vector-icons';
 import { AntDesign } from '@expo/vector-icons';
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import anh1 from "./assets/Picture1.png";
 
 export default function App() {
@@ -136,6 +138,9 @@ export default function App() {
     </View>
   );
 }
+
+// screen2:
+
 
 const styles = StyleSheet.create({
   container: {
